@@ -1,0 +1,108 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: white;
+  background-image: url(black.jpg);
+  /* background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  opacity: 0.3; */
+}
+
+* {
+  margin: auto;
+  padding: auto;
+  font-family: "Lato", sans-serif;
+  align-items: center;
+}
+.ourteam {
+  background-color: #292929;
+  border-radius: 25px;
+  color: white;
+  font-weight: 900;
+  max-width: 90%;
+}
+.speakerimg {
+  border-radius: 30px;
+  height: 235px;
+  width: 275px;
+  margin-left: -1px;
+  margin-top: -1px;
+}
+.contactimg {
+  border-radius: 30px;
+  height: 180px;
+  width: 220px;
+  margin-left: -1px;
+  margin-top: -1px;
+}
+.linked img {
+  height: 35px;
+  width: 35px;
+  margin-right: 125px;
+  margin-top: -70px;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.card {
+  border-radius: 30px;
+  height: 325px;
+  width: 275px;
+  margin-bottom: 50px;
+  background-color: #292929;
+}
+.speakercard {
+  border-radius: 30px;
+  height: 325px;
+  width: 275px;
+  /* margin-top: 50px; */
+  margin-bottom: 50px;
+  background-color: #292929;
+}
+.contactcard {
+  border-radius: 25px;
+  height: 315px;
+  width: 220px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  /* color: #292929; */
+}
+.name {
+  font-weight: 800;
+  color: #292929;
+  font-size: large;
+}
+
+.speakername {
+  font-weight: 800;
+  color: #ffffff;
+  font-size: large;
+}
+
+.desig {
+  font-weight: lighter;
+  font-size: 0.85em;
+}
+.email {
+  text-align: right;
+  margin-top: -35px;
+  font-weight: lighter;
+  margin-right: -12px;
+  color: gray;
+  font-size: 0.82em;
+}
+.phone {
+  text-align: right;
+  margin-top: -1px;
+  font-weight: lighter;
+  margin-right: 13px;
+  color: gray;
+  font-size: 0.82em;
+}
