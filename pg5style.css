@@ -1,12 +1,29 @@
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: white;
-  background-image: url(black.jpg);
+  font-family: 'Lato', sans-serif;
+  /* background-color: black; */
+  background-color: #292929;
   /* background-size: 100vw 100vh;
   background-repeat: no-repeat;
   opacity: 0.3; */
 }
-
+.hex{
+  
+  background: url("3DHexagon.png");
+  background-position: 20% 5px;
+  /* background-position: top; */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  
+}
+.wire{
+  background: url("Wireframe.png");
+  background-position: bottom;
+  /* background-position: top; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-origin: content-box; */
+}
 * {
   margin: auto;
   padding: auto;
@@ -14,7 +31,7 @@ body {
   align-items: center;
 }
 .ourteam {
-  background-color: #292929;
+  background-color: #3a3a3a;
   border-radius: 25px;
   color: white;
   font-weight: 900;
@@ -30,7 +47,7 @@ body {
 .contactimg {
   border-radius: 30px;
   height: 180px;
-  width: 220px;
+  width: 230px;
   margin-left: -1px;
   margin-top: -1px;
 }
@@ -45,7 +62,13 @@ body {
   justify-content: center;
   align-items: center;
 }
-
+hr{
+  width:35%;
+  height:1.5px;
+  border-color:red;
+  opacity:1;
+  margin:auto;
+}
 .row:after {
   content: "";
   display: table;
@@ -56,20 +79,15 @@ body {
   height: 325px;
   width: 275px;
   margin-bottom: 50px;
-  background-color: #292929;
+  background-color: #3a3a3a;
+
 }
-.speakercard {
-  border-radius: 30px;
-  height: 325px;
-  width: 275px;
-  /* margin-top: 50px; */
-  margin-bottom: 50px;
-  background-color: #292929;
-}
+
 .contactcard {
+  background-color:#ffffff;
   border-radius: 25px;
-  height: 315px;
-  width: 220px;
+  height: 325px;
+  width: 230px;
   margin-top: 50px;
   margin-bottom: 50px;
   /* color: #292929; */
